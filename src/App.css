@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+.one {
+  height: 500px;
+  width: 900px;
+  left: 400px;
+  top: 100px;
+  border: solid;
+  position: absolute;
+  color: #78AEFF;
+  background-color: #78AEFF;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.oneA {
+  height: 100px;
+  width: 280px;
+  border-color: black;
+  position: absolute;
+  left: 80px;
+  top: 165px;
   color: white;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+
 }
 
-.App-link {
-  color: #61dafb;
+.oneZ {
+  height: 80px;
+  width: 318px;
+  position: absolute;
+  left: 80px;
+  top: 270px;
+  color: white;
+  text-align: start;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.x {
+  height: 19px;
+  width: 322px;
+  border-color: black;
+  position: absolute;
+  top: 15px;
+  font-size: 12px;
+}
+
+.y {
+  height: 19px;
+  width: 320px;
+  border-color: black;
+  position: absolute;
+  top: 40px;
+  font-size: 12px;
+
+}
+
+.z {
+  height: 19px;
+  width: 320px;
+  border-color: black;
+  position: absolute;
+  top: 65px;
+  font-size: 12px;
+}
+
+.oneB {
+  height: 37px;
+  width: 362px;
+  left: 459px;
+  top: 50px;
+  border-radius: 5px;
+  border-color: red;
+  border-style: solid;
+  position: absolute;
+  text-align: center;
+  background-color: red;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+
+}
+
+.oneC {
+  height: 350px;
+  width: 362px;
+  left: 459px;
+  top: 123px;
+  border-radius: 7px;
+  position: absolute;
+  border: solid;
+  border-color: white;
+  background-color: white;
+}
+
+.A {
+  position: absolute;
+  height: 33px;
+  width: 286px;
+  left: 20px;
+  top: 20px;
+}
+
+.B {
+  position: absolute;
+  height: 33px;
+  width: 286px;
+  left: 20px;
+  top: 75px;
+}
+
+.C {
+  position: absolute;
+  width: 286px;
+  height: 33px;
+  left: 20px;
+  top: 135px;
+}
+
+.dropdown {
+  position: absolute;
+  width: 286px;
+  height: 33px;
+  left: 20px;
+  top: 190px;
+  font-size: larger;
+}
+
+.E {
+  position: absolute;
+  width: 286px;
+  height: 45px;
+  left: 20px;
+  top: 273px;
+  border: solid;
+  color: white;
+  background-color: #B5B5B5;
+
+}
+
+.EG {
+  position: absolute;
+  width: 286px;
+  height: 45px;
+  left: 20px;
+  top: 273px;
+  border: solid;
+  background-color: #37CC8A;
+  color: white;
+
+}
+
+.skills {
+  position: absolute;
+  width: 250px;
+  height: 33px;
+  left: 20px;
+  top: 240px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.a {
+
+  height: 30px;
+  width: 75px;
+  border: solid;
+  font-size: small;
+  text-align: center;
+  border-color: white;
+  background-color: #DCDCDC;
+  color:#777777;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: flex-start;
+
+}
+
+.l {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 60px;
+  top: 3px;
+  color:#777777;
+}
+
+.m {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 140px;
+  top: 3px;
+  color: #777777;
+
+}
+.n{
+  height:20px;
+  width:20px;
+  position: absolute;
+  left: 220px;
+  top:3px;
+  color: #777777;
+}
+
+.F {
+  position: absolute;
+  width: 285px;
+  height: 20px;
+  left: 30px;
+  top: 323px;
+  font-size: 9px;
+  font-weight: 500;
+  color: gray;
+}
+
+span {
+  color: red;
 }
